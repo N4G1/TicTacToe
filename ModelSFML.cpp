@@ -33,7 +33,7 @@ void ModelSFML::initialize()
 			, i % tileWidth == 0 ? boxCoordY += boxHeight + margin : boxCoordY ));		//optimised for any size you want
 	}
 	
-	if (!font.loadFromFile("T:\\Code\\TicTacToe\\Fonts\\neon.ttf"))
+	if (!font.loadFromFile("Fonts\\neon.ttf"))
 		std::cout << "Error loading font\n";
 	
 	text.setFont(font);
